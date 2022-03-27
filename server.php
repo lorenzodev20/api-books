@@ -10,10 +10,10 @@ $autenticated = true; // Bandera para saber si ya esta autenticado.
 
 // require_once 'auth/auth_http.php'; //Autenticacion HTTP
 // require_once 'auth/auth_hmac.php'; //Autenticacion HMAC
-require_once 'auth/auth_token.php'; //Autenticacion Token
+//require_once 'auth/auth_token.php'; //Autenticacion Token
 
 if ($autenticated) {
-    echo "\n Estas autenticado \n ";
+    // echo "\n Estas autenticado \n ";
     // Definimos los recursos disponibles
     $allowedResourceType = [
         'books',
